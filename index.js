@@ -7,8 +7,8 @@ const Opn = require('opn');
 
 //set auth credentials
 const dropbox = dropboxV2Api.authenticate({
-	client_id: "API_ID" , //"jdj8c2o28ecjmsz"
-	client_secret:"APP_Secert" ,//"7rp41oykki8kocs"
+	client_id: "API_ID" , 
+	client_secret:"APP_Secert",
 	token_access_type: 'offline',
 	redirect_uri: 'http://localhost:4000/oauth'
 });
